@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/dashbaod.css">
+    <link rel="stylesheet" href="assets/css/course.css">
+    <title>Courses List</title>
+</head>
+<body>
+    <!-- HEADER START HER -->
+    <header>
+        <div class="header">
+            <div class="search-conatiner">
+                <button type="submit" class="submit"><img src="assets/images/icons/search.svg" alt="serach icon" width="20"></button>
+                <input type="search" placeholder="Search">
+            </div>
+
+            <div class="navs">
+                <ul>
+                    <li title="Chat with Bot">
+                        <img src="assets/images/icons/comment-alt.svg" alt="Bot" width="20">
+                    </li>
+
+                    <li title="Messages">
+                        <img src="assets/images/icons/comments.svg" alt="Messages" width="20">
+                    </li>
+
+                    <li title="Notification">
+                        <img src="assets/images/icons/calendar.svg" alt="Notification" width="20">
+                    </li>
+
+                    <li title="Logout" id="logout">
+                        <img src="assets/images/icons/exit.svg" alt="Logout" width="20">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER ENDS HERE  -->
+
+    <!-- MANI START HERE  -->
+    <main>
+        <section id="side">
+            <div class="logo">
+                <img src="assets/images/icons/logo.png" alt="logo" width="100">
+            </div>
+
+            <a href="profile.html">
+            <div class="user-container">
+                <div class="profile-img">
+                    <img src="assets/images/icons/profile.jpg" alt="profile image" width="50">
+                </div>
+
+                <div class="details">
+                    <h5>Aminu Muhammad</h5>
+                    <p class="small">Student</p>
+                </div>
+            </div>
+            </a>
+
+            <div class="navigation-container">
+                <ul>
+                    <li>
+                        <a href="dasboad.html"> 
+                            <img src="assets/images/icons/apps.svg" alt="Dashbaod" width="20">
+                            <b>Dashbaod</b>
+                        </a>
+                    </li>
+
+                     <li>
+                        <a href="profile.html"> 
+                            <img src="assets/images/icons/user.svg" alt="Courses" width="20">
+                            <b>Profile</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="course.html" class="active"> 
+                            <img src="assets/images/icons/graduation-cap.svg" alt="Courses" width="20">
+                            <b>Courses</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/comment-alt.svg" alt="Assignments" width="20">
+                            <b>Assignments</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/check.svg" alt="Results" width="20">
+                            <b>Results</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/comments.svg" alt="Messages" width="20">
+                            <b>Messages</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/settings.svg" alt="Settings" width="20">
+                            <b>Settings</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        
+    <section id="courses">
+        <div class="course-summary">
+            <div class="card">
+                <div class="title">
+                    <img src="assets/images/icons/clock.svg" alt="clock icon" width="20">
+                    <h4>Total Hours</h4>
+                </div>
+                <div class="footer">
+                    <h1>110h</h1>
+                    <img src="assets/images/icons/chart-line-up.svg" alt="icon" width="20">
+                </div>
+            </div>
+
+              <div class="card">
+                <div class="title">
+                    <img src="assets/images/icons/graduation-cap.svg" alt="clock icon" width="20">
+                    <h4>Completed Course</h4>
+                </div>
+                <div class="footer">
+                    <h1>150</h1>
+                    <img src="assets/images/icons/chart-line-up.svg" alt="icon" width="20">
+                </div>
+            </div>
+
+              <div class="card">
+                <div class="title">
+                    <img src="assets/images/icons/user.svg" alt="clock icon" width="20">
+                    <h4>Total Students</h4>
+                </div>
+                <div class="footer">
+                    <h1>2249k</h1>
+                    <img src="assets/images/icons/chart-line-up.svg" alt="icon" width="20">
+                </div>
+            </div>
+
+        </div>
+            <div class="courses-container"> 
+                <div class="filter-container">
+                    <h1>Filter Course</h1>
+                    <select name="course" id="course">
+                        <option value="course" selected disabled>Filter Course</option>
+                     <option value="Web Design">Web Design</option>
+                     <option value="AI">AI</option>
+                     <option value="Data Scince">Data Scince</option>
+                     <option value="Machine Learning">Machine Learning</option>
+                     <option value="Data Analytics">Data Analytics</option>
+                     <option value="Cloud Computing">Cloud Computing</option>
+                     <option value="Networking">Networking</option>
+                    </select>
+                </div>
+                <div class="course-selector">
+                    <button class="active">All</button>
+                    <button>Advance</button>
+                    <button>Intermediate</button>
+                    <button>Beginner</button>
+                </div>
+            <div class="card-container">
+
+                <div class="card">
+                    <div class="img-container">
+                        <img src="assets/images/banner.PNG" alt="course" width="100">
+                    </div>
+                    <div class="course-details">
+                        <div class="lavel">
+                            <h3>Beginner</h3>
+                            <div class="students">
+                                <img src="assets/images/icons/graduation-cap.svg" alt="students" width="20">
+                                120
+                            </div>
+                        </div>
+
+                        <div class="description">
+                            <h4>Graphic Design</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+
+                        <div class="author-container">
+                            <div class="author-details">
+                                <div class="img-container">
+                                    <img src="assets/images/icons/profile.jpg" alt="profile image" width="40" class="profile">
+                                </div>
+                                <div class="name">
+                                    <h6>Aminu Muhammad</h6>
+                                    <p class="small">Facilitator</p>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-container">
+                        <img src="assets/images/dashboad.PNG" alt="course" width="100">
+                    </div>
+                    <div class="course-details">
+                        <div class="lavel">
+                            <h3>Intermediate</h3>
+                            <div class="students">
+                                <img src="assets/images/icons/graduation-cap.svg" alt="students" width="20">
+                                20
+                            </div>
+                        </div>
+
+                        <div class="description">
+                            <h4>Course Titled</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+
+                        <div class="author-container">
+                            <div class="author-details">
+                                <div class="img-container">
+                                    <img src="assets/images/icons/profile.jpg" alt="profile image" width="40" class="profile">
+                                </div>
+                                <div class="name">
+                                    <h6>Aminu Muhammad</h6>
+                                    <p class="small">Facilitator</p>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-container">
+                        <img src="assets/images/home.PNG" alt="course" width="100">
+                    </div>
+                    <div class="course-details">
+                        <div class="lavel">
+                            <h3>Advance</h3>
+                            <div class="students">
+                                <img src="assets/images/icons/graduation-cap.svg" alt="students" width="20">
+                                40
+                            </div>
+                        </div>
+
+                        <div class="description">
+                            <h4>Full Stack</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+
+                        <div class="author-container">
+                            <div class="author-details">
+                                <div class="img-container">
+                                    <img src="assets/images/icons/profile.jpg" alt="profile image" width="40" class="profile">
+                                </div>
+                                <div class="name">
+                                    <h6>Aminu Muhammad</h6>
+                                    <p class="small">Facilitator</p>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <div class="img-container">
+                        <img src="assets/images/list of course.PNG" alt="course" width="100">
+                    </div>
+                    <div class="course-details">
+                        <div class="lavel">
+                            <h3>Intermediate</h3>
+                            <div class="students">
+                                <img src="assets/images/icons/graduation-cap.svg" alt="students" width="20">
+                                110
+                            </div>
+                        </div>
+
+                        <div class="description">
+                            <h4>Data Analytics</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+
+                        <div class="author-container">
+                            <div class="author-details">
+                                <div class="img-container">
+                                    <img src="assets/images/icons/profile.jpg" alt="profile image" width="40" class="profile">
+                                </div>
+                                <div class="name">
+                                    <h6>Aminu Muhammad</h6>
+                                    <p class="small">Facilitator</p>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="img-container">
+                        <img src="assets/images/register.PNG"  alt="course" width="100">
+                    </div>
+                    <div class="course-details">
+                        <div class="lavel">
+                            <h3>Beginner</h3>
+                            <div class="students">
+                                <img src="assets/images/icons/graduation-cap.svg" alt="students" width="20">
+                                30
+                            </div>
+                        </div>
+
+                        <div class="description">
+                            <h4>Frontend Developer</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+
+                        <div class="author-container">
+                            <div class="author-details">
+                                <div class="img-container">
+                                    <img src="assets/images/icons/profile.jpg" alt="profile image" width="40">
+                                </div>
+                                <div class="name">
+                                    <h6>Aminu Muhammad</h6>
+                                    <p class="small">Facilitator</p>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-container">
+                        <img src="assets/images/image-banner.png" alt="course" width="100">
+                    </div>
+                    <div class="course-details">
+                        <div class="lavel">
+                            <h3>Beginner</h3>
+                            <div class="students">
+                                <img src="assets/images/icons/graduation-cap.svg" alt="students" width="20">
+                                190
+                            </div>
+                        </div>
+
+                        <div class="description">
+                            <h4>Basic Computer Operation</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+
+                        <div class="author-container">
+                            <div class="author-details">
+                                <div class="img-container">
+                                    <img src="assets/images/icons/profile.jpg" alt="profile image" width="40">
+                                </div>
+                                <div class="name">
+                                    <h6>Aminu Muhammad</h6>
+                                    <p class="small">Facilitator</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>  
+            </div>
+        </section>
+    </main>
+    <!-- MAIN ENDS HERE  -->
+
+    <!-- FOOTER START HERE   -->
+    <footer>
+
+    </footer>
+    <!-- FOOTER ENDS HERE  -->
+</body>
+</html>

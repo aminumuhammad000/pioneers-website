@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/dashbaod.css">
+    <link rel="stylesheet" href="assets/css/assignment.css">
+    <title>Assignment Dasboad</title>
+</head>
+<body>
+    <!-- HEADER START HER -->
+    <header>
+        <div class="header">
+            <div class="search-conatiner">
+                <button type="submit" class="submit"><img src="assets/images/icons/search.svg" alt="serach icon" width="20"></button>
+                <input type="search" placeholder="Search">
+            </div>
+
+            <div class="navs">
+                <ul>
+                    <li title="Messages">
+                        <img src="assets/images/icons/comments.svg" alt="Messages" width="20">
+                    </li>
+
+                    <li title="Notification">
+                        <img src="assets/images/icons/calendar.svg" alt="Notification" width="20">
+                    </li>
+
+                    <li title="Logout" id="logout">
+                        <img src="assets/images/icons/exit.svg" alt="Logout" width="20">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER ENDS HERE  -->
+
+    <!-- MANI START HERE  -->
+    <main>
+        <section id="side">
+            <div class="logo">
+                <img src="assets/images/icons/logo.png" alt="logo" width="100">
+            </div>
+            <div class="menu">
+                <img src="assets/images/icons/menu-burger.svg" alt="menu bar" width="20">
+            </div>
+
+            <a href="profile.html">
+            <div class="user-container">
+                <div class="profile-img">
+                    <img src="assets/images/icons/profile.jpg" alt="profile image" width="50">
+                </div>
+
+                <div class="details">
+                    <h5>Aminu Muhammad</h5>
+                    <p class="small">Student</p>
+                </div>
+            </div>
+            </a>
+
+            <div class="navigation-container">
+                <ul>
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/apps.svg" alt="Dashbaod" width="20">
+                            <b>Dashbaod</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="profile.html"> 
+                            <img src="assets/images/icons/user.svg" alt="Courses" width="20">
+                            <b>Profile</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="course.html"> 
+                            <img src="assets/images/icons/graduation-cap.svg" alt="Courses" width="20">
+                            <b>Courses</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="assignment.html" class="active"> 
+                            <img src="assets/images/icons/comment-alt.svg" alt="Assignments" width="20">
+                            <b>Assignments</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/check.svg" alt="Results" width="20">
+                            <b>Results</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/comments.svg" alt="Messages" width="20">
+                            <b>Messages</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/settings.svg" alt="Settings" width="20">
+                            <b>Settings</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="assignment">
+            <div class="heading-container">
+                <h5>Assignment</h5>
+                <div class="functions">
+                    <div class="search-container">
+                        <button type="submit"><img src="assets/images/icons/search.svg" alt="search icon" width="20"></button>
+                        <input type="search" name="search" placeholder="serach assignmnet">
+                    </div>
+                     <select name="filter" id="filter">
+                            <option value="filter" selected disabled>
+                                <!-- <img src="assets/images/icons/interrogation.svg" alt="filter icon" width="20"> -->
+                                Filter
+                            </option>
+                            <option value="date">Date</option>
+                            <option value="pending">Pending</option>
+                            <option value="Completed">Completed</option>
+                        </select>
+                    <div class="add-assignment">
+                    <img src="assets/images/icons/plus.svg" alt="plus icon" width="20">
+                    <h6>Create Assignment</h6>
+                </div>
+                </div>
+                
+            </div>
+
+            <table>
+                <tr>
+                    <td><b>Document</b></td>
+                    <td><b>Date</b></td>
+                    <td><b>Status</b></td>
+                </tr>
+                
+                <tr>
+                    <td>Introduction to HTML</td>
+                    <td>10,dec,2025</td>
+                    <td><span class="completed">completed</span></td>
+                </tr>
+
+                <tr>
+                    <td>Introduction to HTML</td>
+                    <td>13,dec,2025</td>
+                    <td><span class="pending">Pending</span></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <!-- MAIN ENDS HERE  -->
+
+    <!-- FOOTER START HERE   -->
+    <footer>
+
+    </footer>
+    <!-- FOOTER ENDS HERE  -->
+</body>
+</html>

@@ -1,0 +1,115 @@
+:root{
+     --blue-color: #00f;
+    --red-color: #d92a24;
+    --background-color: #eee;
+    --section-color: #fff;
+}
+#profile{
+    background-color: var(--section-color);
+    padding: 20px;
+    border-radius: 20px;
+}
+#profile .title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#profile .title-container button{
+    padding: 10px;
+    border: none;
+    background-color: #0000ff28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #0000ff34;
+    }
+}
+#profile .profile-conatiner .user-card{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+#profile .profile-conatiner .user-card .user-side{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#profile .profile-conatiner .user-card .user-side .img-container{
+    width: 3em;
+    height: 3em;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+#profile .profile-conatiner .user-card .user-side .img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#profile .profile-conatiner .user-card .user-details{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+#profile .profile-conatiner .user-card .user-details h5,
+#profile .profile-conatiner .user-card .user-details address{
+    opacity: 0.6;
+}
+#profile .profile-conatiner .user-card .user-details address{
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+#profile .profile-conatiner .action-button,
+#profile .personal-information .heading button,
+#profile .address-container .heading button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+#profile .profile-conatiner .action-button:hover,
+#profile .personal-information .heading button:hover{
+    background-color: var(--background-color);
+}
+#profile .personal-information,
+#profile .address-container{
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-top: 2em;
+}
+#profile .personal-information .heading,
+#profile .address-container .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#profile .personal-information table,
+#profile .address-container table{
+    width: 100%;
+    table-layout: fixed;
+}
+#profile .personal-information table td,
+#profile .address-container table td{
+    padding: 10px;
+    font-weight: 400;
+}
+#profile .personal-information table td.bold,
+#profile .address-container table td.bold{
+    font-weight: 600;
+    padding-top: 2em;
+}

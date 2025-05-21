@@ -1,0 +1,70 @@
+:root{
+     --blue-color: #006aab67;
+    --red-color: #d92a24;
+    --background-color: #eee;
+    --section-color: #fff;
+}
+#assignment{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--section-color);
+}
+#assignment .heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#assignment .heading-container h5{
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+#assignment .heading-container .functions,
+.add-assignment{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#assignment .heading-container .functions .search-container,
+#assignment .heading-container .functions select,
+.add-assignment{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+#assignment .heading-container .functions .search-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#assignment .heading-container .functions .search-container button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#assignment .heading-container .functions .search-container input{
+    border: none;
+    outline: none;
+}
+.add-assignment{
+    cursor: pointer;
+}
+#assignment table{
+    width: 100%;
+    table-layout: fixed;
+    margin-top: 2em;
+}
+#assignment table td{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+#assignment table td span.completed{
+    background-color: var(--blue-color);
+    padding: 5px;
+    border-radius: 10px;
+}
+#assignment table td span.pending{
+    background-color: var(--red-color);
+    padding: 5px;
+    border-radius: 10px;
+}

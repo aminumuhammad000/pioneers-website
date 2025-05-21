@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/dashbaod.css">
+    <title>Student Dashbaod</title>
+</head>
+<body>
+    <!-- HEADER START HER -->
+    <header>
+        <div class="header">
+            <div class="search-conatiner">
+                <button type="submit" class="submit"><img src="assets/images/icons/search.svg" alt="serach icon" width="20"></button>
+                <input type="search" placeholder="Search">
+            </div>
+
+            <div class="navs">
+                <ul>
+                    <li title="Messages">
+                        <img src="assets/images/icons/comments.svg" alt="Messages" width="20">
+                    </li>
+
+                    <li title="Notification">
+                        <img src="assets/images/icons/calendar.svg" alt="Notification" width="20">
+                    </li>
+
+                    <li title="Logout" id="logout">
+                        <img src="assets/images/icons/exit.svg" alt="Logout" width="20">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER ENDS HERE  -->
+
+    <!-- MANI START HERE  -->
+    <main>
+        <section id="side">
+            <div class="logo">
+                <img src="assets/images/icons/logo.png" alt="logo" width="100">
+            </div>
+            <div class="menu">
+                <img src="assets/images/icons/menu-burger.svg" alt="menu bar" width="20">
+            </div>
+
+            <a href="profile.html">
+            <div class="user-container">
+                <div class="profile-img">
+                    <img src="assets/images/icons/profile.jpg" alt="profile image" width="50">
+                </div>
+
+                <div class="details">
+                    <h5>Aminu Muhammad</h5>
+                    <p class="small">Student</p>
+                </div>
+            </div>
+            </a>
+
+            <div class="navigation-container">
+                <ul>
+                    <li>
+                        <a href="#" class="active"> 
+                            <img src="assets/images/icons/apps.svg" alt="Dashbaod" width="20">
+                            <b>Dashbaod</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="profile.html"> 
+                            <img src="assets/images/icons/user.svg" alt="Courses" width="20">
+                            <b>Profile</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="course.html"> 
+                            <img src="assets/images/icons/graduation-cap.svg" alt="Courses" width="20">
+                            <b>Courses</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/comment-alt.svg" alt="Assignments" width="20">
+                            <b>Assignments</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/check.svg" alt="Results" width="20">
+                            <b>Results</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/comments.svg" alt="Messages" width="20">
+                            <b>Messages</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/settings.svg" alt="Settings" width="20">
+                            <b>Settings</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="overview">
+            <div class="details">
+                <div class="summary-container">
+                    <img src="assets/images/icons/book-bookmark.svg" alt="attendance" width="20">
+                    <div class="summary">
+                        <h5>Class Attendance</h5>
+                        <p class="small">78/30</p>
+                    </div>
+                </div>
+
+                <div class="summary-container blue">
+                    <img src="assets/images/icons/check.svg" alt="Course Completed" width="20">
+                    <div class="summary">
+                        <h5>Course Completed</h5>
+                        <p class="small">78/30</p>
+                    </div>
+                </div>
+
+                <div class="summary-container red">
+                    <img src="assets/images/icons/clock.svg" alt="Absent" width="20">
+                    <div class="summary">
+                        <h5>Absent</h5>
+                        <!-- <p>78/30</p> -->
+                    </div>
+                </div>
+
+                <div class="summary-container yellow">
+                    <img src="assets/images/icons/chart-line-up.svg" alt="Quiz Practised" width="20">
+                    <div class="summary">
+                        <h5>Quiz Practised</h5>
+                        <p class="small">78/30</p>
+                    </div>
+                </div>
+
+                <div class="summary-container green">
+                    <img src="assets/images/icons/clock.svg" alt="Remain Classes" width="20">
+                    <div class="summary">
+                        <h5>Remain Classes</h5>
+                        <p class="small">78/30</p>
+                    </div>
+                </div>
+
+                <div class="summary-container  green2">
+                    <img src="assets/images/icons/eye.svg" alt="attendance" width="20">
+                    <div class="summary">
+                        <h5>Assignment Done</h5>
+                        <p class="small">78/30</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="performance">
+                <div class="summary">
+                    <div class="title-conatiner">
+                        <h3>Overall Performance</h3>
+                        <p class="small">course progress</p>
+                    </div>
+
+                    <div class="level-container">
+                        <ul>
+                            <li>Pro Lerner</li>
+                            <li>High Achivers</li>
+                            <li>Need Improvement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="course-module">
+            <table>
+                <div class="table-head">
+                    <h2 class="title">Course Module</h2>
+                    <div class="search-container">
+                        <button type="submit" class="submit"><img src="assets/images/icons/search.svg" alt="search icon" width="20"></button>
+                        <input type="search" placeholder="serach">
+                    </div>
+                </div>
+
+                <thead>
+                    <tr class="heading">
+                        <td><b>Course Name</b></td>
+                        <td><b>Date</b></td>
+                        <td><b>Time</b></td>
+                        <td><b>Topic</b></td>
+                        <td><b>Course Instructor</b></td>
+                        <td><b>Class Duration</b></td>
+                        <td><b>Status</b></td>
+                    </tr>
+                </thead>
+                
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button>Not Completed</button></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button>Not Completed</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+                                       <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button>Not Completed</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button>Not Completed</button></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button> Not Completed</button></td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button>Not Completed</button></td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Design</td>
+                        <td>12 Dec 2025</td>
+                        <td>02:10pm</td>
+                        <td>Introduction to HTML</td>
+                        <td>Aminu Muhammad</td>
+                        <td>2hrs</td>
+                        <td><button class="completed">Completed</button></td>
+                    </tr>
+               
+            </table>
+        </section>
+    </main>
+    <!-- MAIN ENDS HERE  -->
+
+    <!-- FOOTER START HERE   -->
+    <footer>
+
+    </footer>
+    <!-- FOOTER ENDS HERE  -->
+</body>
+</html>

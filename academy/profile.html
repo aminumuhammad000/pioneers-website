@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/dashbaod.css">
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <title>Student Profile</title>
+</head>
+<body>
+    <!-- HEADER START HER -->
+    <header>
+        <div class="header">
+            <div class="search-conatiner">
+                <button type="submit" class="submit"><img src="assets/images/icons/search.svg" alt="serach icon" width="20"></button>
+                <input type="search" placeholder="Search">
+            </div>
+
+            <div class="navs">
+                <ul>
+                    <li title="Messages">
+                        <img src="assets/images/icons/comments.svg" alt="Messages" width="20">
+                    </li>
+
+                    <li title="Notification">
+                        <img src="assets/images/icons/calendar.svg" alt="Notification" width="20">
+                    </li>
+
+                    <li title="Logout" id="logout">
+                        <img src="assets/images/icons/exit.svg" alt="Logout" width="20">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER ENDS HERE  -->
+
+    <!-- MANI START HERE  -->
+    <main>
+        <section id="side">
+            <div class="logo">
+                <img src="assets/images/icons/logo.png" alt="logo" width="100">
+            </div>
+
+            <a href="profile.html">
+            <div class="user-container">
+                <div class="profile-img">
+                    <img src="assets/images/icons/profile.jpg" alt="profile image" width="50">
+                </div>
+
+                <div class="details">
+                    <h5>Aminu Muhammad</h5>
+                    <p class="small">Student</p>
+                </div>
+            </div>
+            </a>
+
+            <div class="navigation-container">
+                <ul>
+                    <li>
+                        <a href="dasboad.html"> 
+                            <img src="assets/images/icons/apps.svg" alt="Dashbaod" width="20">
+                            <b>Dashbaod</b>
+                        </a>
+                    </li>
+
+                     <li>
+                        <a href="profile.html" class="active"> 
+                            <img src="assets/images/icons/user.svg" alt="Courses" width="20">
+                            <b>Profile</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="course.html"> 
+                            <img src="assets/images/icons/graduation-cap.svg" alt="Courses" width="20">
+                            <b>Courses</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/comment-alt.svg" alt="Assignments" width="20">
+                            <b>Assignments</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/check.svg" alt="Results" width="20">
+                            <b>Results</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/comments.svg" alt="Messages" width="20">
+                            <b>Messages</b>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            <img src="assets/images/icons/settings.svg" alt="Settings" width="20">
+                            <b>Settings</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="profile">
+            <div class="title-container">
+                <h1>User</h1>
+                <button><img src="assets/images/icons/plus.svg" alt="plus icon" width="20"> Add User</button>
+            </div>
+            <div class="profile-conatiner">
+                <div class="user-card">
+                    <div class="user-side">
+                        <div class="img-container">
+                            <img src="assets/images/icons/profile.jpg" alt="user profile" width="100">
+                        </div>
+                        <div class="user-details">
+                            <h4>Aminu Muhammad</h4>
+                            <h5 class="course">Web Design</h5>
+                            <address>zoo road, kano, nigeira</address>
+                        </div>
+                    </div>
+
+                    <button class="action-button"><img src="assets/images/icons/edit.svg" alt="edit icon" width="20">Edit</button>
+                   
+                </div>
+
+                <div class="personal-information">
+                    <div class="heading">
+                        <h5>Personal Information</h5>
+                        <button><img src="assets/images/icons/edit.svg" alt="edit icon" width="20">Edit</button>
+                    </div>
+                    <table>
+                        <tr>
+                            <td class="bold">First Name</td>
+                            <td class="bold">Last Name</td>
+                        </tr>
+                        <tr>
+                            <td>Aminu</td>
+                            <td>Muhammad</td>
+                        </tr>
+
+                        <tr>
+                            <td class="bold">Email address</td>
+                            <td class="bold">Phone Number</td>
+                        </tr>
+                        <tr>
+                            <td>aminumuhammad00015@gmail.com</td>
+                            <td>08100015498</td>
+                        </tr>
+
+                        <tr>
+                            <td class="bold">Bio</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="address-container">
+                    <div class="heading">
+                        <h5>Address</h5>
+                        <button><img src="assets/images/icons/edit.svg" alt="edit icon" width="20">Edit</button>
+                    </div>
+                    <table>
+                        <tr>
+                            <td class="bold">Country</td>
+                            <td class="bold">City/State</td>
+                        </tr>
+
+                        <tr>
+                            <td>Nigeria</td>
+                            <td>Kano State</td>
+                        </tr>
+
+                        <tr>
+                            <td class="bold">Postal Code</td>
+                            <td class="bold">Address</td>
+                        </tr>
+
+                        <tr>
+                            <td>03738</td>
+                            <td>Zoo road kano</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!-- MAIN ENDS HERE  -->
+
+    <!-- FOOTER START HERE   -->
+    <footer>
+
+    </footer>
+    <!-- FOOTER ENDS HERE  -->
+</body>
+</html>
