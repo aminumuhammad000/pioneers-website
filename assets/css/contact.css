@@ -1,0 +1,41 @@
+:root{
+    --red-color: #dc3545;
+    --blue-color: #0069ab;
+    --section-color: #e8e8ff;
+     --angle-color: #DCDCF2; 
+}
+
+#contact-page{
+    background-color:  #fff;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-inline: auto;
+}
+#contact-page .title-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+#contact-page .title-heading h1{
+    font-size: 2.2rem;
+}
+
+#contact-page .contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 2em;
+}
+#contact-page .contact-container div{
+    width: 250px;
+    height: 200px;
+    background-color: var(--section-color);
+    padding: 20px;
+}
+#contact-page .map{
+    display: grid;
+    place-content: center;
+    margin-bottom: 5em;
+}

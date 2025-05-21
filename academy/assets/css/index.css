@@ -28,6 +28,7 @@ body {
 }
 
 .main-header {
+  background-color: var(--blue-color);
   padding: 20px 0;
   color: white;
 }
@@ -45,18 +46,20 @@ body {
 .nav-links {
   display: inline-block;
   margin-left: 40px;
+  color: var(--background-color);
 }
 
 .nav-links a {
   color: var(--blue-color);
   margin-right: 20px;
   text-decoration: none;
+   color: var(--background-color);
 }
 
 .btn {
   float: right;
-  background-color: var(--blue-color);
-  color: var(--background-color);
+  background-color: var(--background-color);
+  color: var(--blue-color);
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -203,7 +206,7 @@ body {
 }
 
 .pricing {
-  background-color: #002244;
+  background-color: var(--blue-color);
   color: white;
   text-align: center;
   padding: 60px 0;
@@ -233,29 +236,15 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-.card.featured {
-  background-color: #0055aa;
-  transform: scale(1.05);
-}
-
-.card h3 {
-  margin-bottom: 10px;
-  font-size: 20px;
-}
-
-.card .price {
-  font-size: 24px;
-  margin: 20px 0; 
-}
 
 
-    .course-grid {
+.course-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 20px;
     }
 
-    .card {
+.card {
       background: #fff;
       border-radius: 10px;
       overflow: hidden;
@@ -287,7 +276,7 @@ body {
       margin-bottom: 15px;
     }
 
-    .view-btn {
+.view-btn {
       background: var(--blue-color);
       color: #fff;
       padding: 10px 15px;
@@ -298,6 +287,42 @@ body {
       transition: background 0.3s;
     }
 
-    .view-btn:hover {
+.view-btn:hover {
       background: #0056b3;
     }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    padding-bottom: 5em;
+    background-color: var(--blue-color);
+    border-top: 1px solid var(--background-color);
+}
+footer .img-container{
+    width: 12em;
+}
+footer .img-container img{
+    width: 100%;
+    object-fit: cover;
+}
+footer p{
+    color: #fff;
+}
+footer .socila-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+footer .socila-media div{
+    background-color: var(--red-color);
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
